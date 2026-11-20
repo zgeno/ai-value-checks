@@ -1,4 +1,5 @@
 # Transcript: The Saved-Time Check, real run on a real case
+Tool: The Hours-Saved Reality Check (earlier name: The Saved-Time Check). The run below is verbatim, so it shows the name in use at the time.
 Case: Koodo Mobile · Koodo Assist, signed out, 28 Oct 2026 (public test).
 Run 15 Nov 2026: a fresh Claude agent given only this folder's SKILL.md played the skill; the user's turns use only the facts and quotes from the public test (see the `.case.md` file). Text below is verbatim; only the pace of the video is changed.
 

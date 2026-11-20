@@ -1,4 +1,4 @@
-# AI Value Checks No. 01, The What-Changed Check: renders the value record (JSON from the skill) as a one-page
+# The AI Payoff Check: renders the value record (JSON from the skill) as a one-page
 # DIAGRAM, 1080x1350: the six parts as one path, left to right, each node joined to a colour-tinted icon panel
 # (panels alternate above and below the path), then the next three actions as a three-step path.
 # Usage: python3 render.py <record.json> <out.html>
@@ -87,7 +87,7 @@ def render(d, out):
     if outside:
         notes.append('<b>Source:</b> %s' % e(d['source']))
     notes.append('<b>Next step:</b> ' + NEXT + '. <b>Method:</b> “How to show what your AI changed”, L. Okiy, <i>The AI Value Gap</i> (2026).')
-    return page(out, 1, 'THE WHAT-CHANGED CHECK', title, '<b>%s.</b> %s' % (e(d['use']), e(d['why'])),
+    return page(out, 1, 'THE AI PAYOFF CHECK', title, '<b>%s.</b> %s' % (e(d['use']), e(d['why'])),
                 ''.join(svg) + body, notes, notes_top=1176)
 
 

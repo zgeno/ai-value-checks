@@ -74,13 +74,13 @@ def page(out_path, no, kick, title, dek, body, notes, notes_top=1150):
     nt = ''.join('<div>%s</div>' % n for n in notes)
     return ('<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="%s/fonts.css">'
             '<style>%s</style></head><body><div class="bg" data-layer="bg"></div>'
-            '<div class="top"><span style="color:#2FD8B4">AI VALUE CHECKS</span><img src="%s/brand/wordmark.svg"><span>No. %02d</span></div>'
+            '<div class="top"><span style="color:#2FD8B4">AI VALUE CHECKS</span><img src="%s/brand/wordmark.svg"><span>FREE TOOL</span></div>'
             '<div class="hr" style="top:96px"></div><div class="kick">%s</div>'
             '<h1>%s</h1><div class="dek">%s</div>%s'
             '<div class="hr" style="top:%dpx"></div><div class="notes" style="top:%dpx">%s</div>'
             '<div class="hr" style="top:1252px"></div><div class="ft"><span>AN ORIGINAL SCALEBOTICS TOOL</span>'
             '<span>SCALEBOTICS.IO · © 2026</span></div></body></html>'
-            % (root, CSS, root, no, kick, title, dek, body, notes_top - 16, notes_top, nt))
+            % (root, CSS, root, kick, title, dek, body, notes_top - 16, notes_top, nt))
 
 def check_len(label, s, cap):
     if len(s) > cap:

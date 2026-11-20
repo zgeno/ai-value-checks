@@ -1,4 +1,5 @@
 # Transcript: The What-Changed Check, real run on a real case
+Tool: The AI Payoff Check (earlier name: The What-Changed Check). The run below is verbatim, so it shows the name in use at the time.
 Case: H&M Canada AI Assistant, signed out, 9 Nov 2026 (public test).
 Run 15 Nov 2026: a fresh Claude agent given only this folder's SKILL.md played the skill; the user's turns use only the facts and quotes from the public test (see the `.case.md` file). Text below is verbatim; only the pace of the video is changed.
 

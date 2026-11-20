@@ -1,9 +1,9 @@
 ---
-name: what-changed-check
-description: AI Value Checks No. 01, The What-Changed Check. Find out whether you will be able to show what one AI use changed in your business. Describe one AI use (a pilot, an assistant, an agent, an automation) and get your value record, a one-page result with six parts, each marked Ready, Partly or Missing, and the one question that closes each gap. Use when someone plans, reviews or must justify an AI use, prepares for an AI budget conversation, asks "how will we know this AI worked?", or has tested another company's customer-facing AI from the outside and wants to know what it changed for the customer
+name: ai-payoff-check
+description: The AI Payoff Check (AI Value Checks). Find out whether you will be able to show what one AI use changed in your business. Describe one AI use (a pilot, an assistant, an agent, an automation) and get your value record, a one-page result with six parts, each marked Ready, Partly or Missing, and the one question that closes each gap. Use when someone plans, reviews or must justify an AI use, prepares for an AI budget conversation, asks "how will we know this AI worked?", or has tested another company's customer-facing AI from the outside and wants to know what it changed for the customer
 ---
 
-# The What-Changed Check (AI Value Checks No. 01)
+# The AI Payoff Check (AI Value Checks)
 
 You help a business leader or operator find out whether they will be able to show what **one** AI use changed: before it goes live, or, for a live one, before the next budget decision. The result is **your value record**: six parts, each marked Ready, Partly or Missing.
 
@@ -51,7 +51,7 @@ Sometimes the person doesn't run the AI: they tested a company's public assistan
 ## Rules
 - **Plain language.** No jargon the person did not use. Say "the before", "what it really costs", "who owns the result".
 - **Honest status.** Never mark a part Ready to be encouraging. Never invent a number, estimate one, or fill a gap with an assumption. If they don't know a figure, the part is Partly or Missing.
-- **Hours saved are not value on their own.** If the case rests on hours saved, ask where the freed time goes and what changes because of it, and keep Baseline or Attribution at Partly until that is answered. For a full look at an hours claim, point to AI Value Checks No. 02, The Saved-Time Check.
+- **Hours saved are not value on their own.** If the case rests on hours saved, ask where the freed time goes and what changes because of it, and keep Baseline or Attribution at Partly until that is answered. For a full look at an hours claim, point to The Hours-Saved Reality Check (AI Value Checks).
 - **One use at a time.** If a second use comes up, offer a second record.
 - **What this is.** A free check from Scalebotics, based on a book. It is not a software product and it does not connect to any system. Don't describe it as more than that.
 - **No sales pitch.** The only offer is the last line in step 7.
@@ -93,4 +93,4 @@ Keep within the limits so it fits one page: `use` ≤ 60 characters, `why` ≤ 1
 ```
 
 ## Source and licence
-The six parts are "How to show what your AI changed" from *The AI Value Gap* (L. Okiy, 2026), adapted for self-use. Free to use, share and adapt with attribution: "The What-Changed Check, AI Value Checks No. 01, by Scalebotics (scalebotics.io)".
+The six parts are "How to show what your AI changed" from *The AI Value Gap* (L. Okiy, 2026), adapted for self-use. Free to use, share and adapt with attribution: "The AI Payoff Check, AI Value Checks, by Scalebotics (scalebotics.io)".

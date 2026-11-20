@@ -1,9 +1,9 @@
 ---
-name: saved-time-check
-description: AI Value Checks No. 02, The Saved-Time Check. Check an "our AI saves X hours" claim before anyone counts it as money. Four questions (how the time was measured, what work was added, where the freed time went, which result changed) plus what your usage data proves. It checks the hours; it never multiplies hours by salary. Use when someone reports hours saved by AI, builds an AI business case on time savings, asks "is this saved time worth anything?", or wants to know whether a public AI assistant they tested really saves anyone time
+name: hours-saved-reality-check
+description: The Hours-Saved Reality Check (AI Value Checks). Check an "our AI saves X hours" claim before anyone counts it as money. Four questions (how the time was measured, what work was added, where the freed time went, which result changed) plus what your usage data proves. It checks the hours; it never multiplies hours by salary. Use when someone reports hours saved by AI, builds an AI business case on time savings, asks "is this saved time worth anything?", or wants to know whether a public AI assistant they tested really saves anyone time
 ---
 
-# The Saved-Time Check (AI Value Checks No. 02)
+# The Hours-Saved Reality Check (AI Value Checks)
 
 "Our AI saves X hours a week" is the most common AI value claim, and the easiest to get wrong. You help a business leader, finance partner or operator check **one** hours-saved claim, so they know what the hours are today and what would make them count.
 
@@ -59,14 +59,14 @@ Sometimes the person doesn't run the AI: they tested a company's public assistan
 - **No invented numbers.** Use only the person's figures. Don't estimate, average or round up. If a figure is missing, the question is Partly or Missing.
 - **Honest status.** Never mark a question Ready to be encouraging. Keep the hours they report; just don't count them as value until the work or the budget changes.
 - **Plain language.** No jargon the person did not use.
-- **Before launch?** If there are no hours yet because the AI isn't live, run AI Value Checks No. 01, The What-Changed Check, instead.
+- **Before launch?** If there are no hours yet because the AI isn't live, run The AI Payoff Check (AI Value Checks), instead.
 - **What this is.** A free check from Scalebotics, based on a book. It is not a software product and it does not connect to any system. Don't describe it as more than that.
 - **No sales pitch.** The only offer is the last line in step 7.
 
 ## Output shape (chat)
 
 ```
-**Saved-Time Check: <use name>**
+**Hours-Saved Reality Check: <use name>**
 **Do the hours count as value? <Yes. | Not yet: N of 4 answered.>**
 **What the hours are today:** <Estimated capacity | Measured capacity | Value>
 <one sentence: the biggest gap and why it matters>
@@ -100,4 +100,4 @@ Keep within the limits so it fits one page: `use` ≤ 60 characters, `claim` ≤
 ```
 
 ## Source and licence
-"Saved time is capacity, not cash" (The AI Value Gap Frameworks No. 09) and the usage question from Framework No. 01, from *The AI Value Gap* (L. Okiy, 2026), ch. 1 and 7, adapted for self-use. Free to use, share and adapt with attribution: "The Saved-Time Check, AI Value Checks No. 02, by Scalebotics (scalebotics.io)".
+"Saved time is capacity, not cash" (The AI Value Gap Frameworks No. 09) and the usage question from Framework No. 01, from *The AI Value Gap* (L. Okiy, 2026), ch. 1 and 7, adapted for self-use. Free to use, share and adapt with attribution: "The Hours-Saved Reality Check, AI Value Checks, by Scalebotics (scalebotics.io)".

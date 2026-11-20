@@ -1,4 +1,4 @@
-# AI Value Checks No. 02, The Saved-Time Check: renders the check result (JSON from the skill) as a one-page
+# The Hours-Saved Reality Check: renders the check result (JSON from the skill) as a one-page
 # DIAGRAM, 1080x1350: the three levels the hours can reach as a path (estimated capacity -> measured capacity
 # -> value), the four questions as gates on the path, each joined to a colour-tinted icon panel, the usage
 # question below, then the next three actions as a three-step path.
@@ -114,7 +114,7 @@ def render(d, out):
     if outside:
         notes.append('<b>Source:</b> %s' % e(d['source']))
     notes.append('<b>Next step:</b> ' + NEXT + '. <b>Method:</b> “Saved time is capacity, not cash”, L. Okiy, <i>The AI Value Gap</i> (2026). No hours × salary.')
-    return page(out, 2, 'THE SAVED-TIME CHECK', 'Do the hours count as value?<br>%s' % res,
+    return page(out, 2, 'THE HOURS-SAVED REALITY CHECK', 'Do the hours count as value?<br>%s' % res,
                 '<b>%s.</b> %s%s' % (e(d['use']), 'The usual claim for this kind of assistant: ' if outside else '', e(d['claim'])), ''.join(svg) + body, notes, notes_top=1176)
 
 
