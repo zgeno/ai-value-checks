@@ -11,6 +11,8 @@ They don't calculate a return on investment. They use only the numbers you give 
 
 More checks follow, numbered in order of release.
 
+▶ **See them run:** [No. 01 video](https://klzxpnznetqcqwcucdpx.supabase.co/storage/v1/object/public/distribution-media/wk47/1fc455daa00bf9ed/AI-Value-Checks-01-what-changed-check.mp4) · [No. 02 video](https://klzxpnznetqcqwcucdpx.supabase.co/storage/v1/object/public/distribution-media/wk47/d0cb136e8ca19224/AI-Value-Checks-02-saved-time-check.mp4)
+
 ## How to use a check
 The checks run in Claude wherever skills are available.
 
@@ -38,7 +40,11 @@ Each check was run on one of our public, signed-out tests in *The State of AI Ag
 
 Each check also works from the outside: when you test a company's public assistant, what the test can't show is marked **Not visible**, never Missing.
 
-Videos of both runs (replies sped up, words unchanged): [No. 01 video](videos/01-what-changed-check.demo.mp4) · [No. 02 video](videos/02-saved-time-check.demo.mp4)
+**Watch each check run (about 40 seconds each; replies sped up, words unchanged):**
+- ▶ [No. 01, The What-Changed Check on H&M Canada](https://klzxpnznetqcqwcucdpx.supabase.co/storage/v1/object/public/distribution-media/wk47/1fc455daa00bf9ed/AI-Value-Checks-01-what-changed-check.mp4)
+- ▶ [No. 02, The Saved-Time Check on Koodo Assist](https://klzxpnznetqcqwcucdpx.supabase.co/storage/v1/object/public/distribution-media/wk47/d0cb136e8ca19224/AI-Value-Checks-02-saved-time-check.mp4)
+
+(The same videos are in the `videos/` folder.)
 
 | No. 01 result | No. 02 result |
 |---|---|
