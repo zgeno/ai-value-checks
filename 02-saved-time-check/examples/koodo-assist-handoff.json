@@ -1,0 +1,40 @@
+{
+ "tool": "saved-time-check",
+ "view": "outside",
+ "use": "Koodo Assist, mobile-data troubleshooting chat",
+ "claim": "Each chat it handles is time our people don't spend. Gap: it can't say if a rep sees the chat.",
+ "answer": "Not yet: the handoff is unclear",
+ "source": "Signed-out Koodo Assist chat, mobile data issue, transcript dated 28 October",
+ "parts": [
+  {
+   "status": "Not visible",
+   "have": "Transcript of one test chat, 28 October. No timings. Koodo's time records can't be seen.",
+   "close": "Koodo compares handling time for mobile-data contacts before and after the assistant."
+  },
+  {
+   "status": "Partly",
+   "have": "Rep handoff needs sign-in. Assist couldn't say if the rep sees the chat, so customers may repeat.",
+   "close": "Koodo checks whether reps get the chat history, and times reps re-asking."
+  },
+  {
+   "status": "Not visible",
+   "have": "Right steps given, fix not confirmed. Chats that go to a rep move work; they don't free it.",
+   "close": "Koodo tracks mobile-data chats that end without a rep, and where rep time went."
+  },
+  {
+   "status": "Not visible",
+   "have": "The test can't show whether the steps fixed the problem.",
+   "close": "Koodo checks repeat contacts and rep cases for mobile data, before and after."
+  },
+  {
+   "status": "Not visible",
+   "have": "Koodo's usage data can't be seen from a signed-out test.",
+   "close": "Koodo checks assistant use on mobile-data issues, not overall chat counts."
+  }
+ ],
+ "actions": [
+  "Re-run the chat signed in, connect to a rep, note anything you must repeat.",
+  "Time the next test: first message to fix, handoff, or dead end.",
+  "Put the help-page handoff answer next to the chat's 'not enough information.'"
+ ]
+}

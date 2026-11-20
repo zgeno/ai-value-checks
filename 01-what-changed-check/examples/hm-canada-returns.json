@@ -1,0 +1,43 @@
+{
+ "tool": "what-changed-check",
+ "view": "outside",
+ "use": "H&M Canada AI Assistant: returns before buying (signed out)",
+ "why": "On a missing return it named the bank first, not H&M; a customer who didn't push back would ask the wrong party.",
+ "answer": "Right rules, after a login loop",
+ "source": "H&M Canada AI Assistant, signed out, return questions for a shirt and a HOME cushion, 9 November",
+ "parts": [
+  {
+   "status": "Ready",
+   "have": "H&M Canada AI Assistant, signed out, one customer checking shirt returns before buying, tested 9 Nov."
+  },
+  {
+   "status": "Partly",
+   "have": "Login prompt 3 times, then guest: return route, portal steps, store items, tracking, email. Fee not stated.",
+   "close": "Test one real return through to the received email and refund; ask the fee directly."
+  },
+  {
+   "status": "Ready",
+   "have": "The before: H&M's pages, read 9 Nov: 30 days, online or store, HOME by mail, $3.99 by mail, 14-day contact."
+  },
+  {
+   "status": "Not visible",
+   "have": "Customer side: three login prompts before a no-account question. H&M's own costs can't be seen.",
+   "close": "H&M would check licence, build, review and correction time, and support cost of the assistant."
+  },
+  {
+   "status": "Not visible",
+   "have": "Rules matched the pages, but whether chat changed returns, contacts or sales can't be seen.",
+   "close": "H&M would compare contacts and return errors for chat users with customers who read the page."
+  },
+  {
+   "status": "Partly",
+   "have": "Missing confirmation: named the bank first; only when challenged, H&M with order and tracking numbers.",
+   "close": "H&M would check why the bank came first and who owns the assistant and can pause it."
+  }
+ ],
+ "actions": [
+  "Ask the missing-confirmation question 3 more times; note if the bank comes first.",
+  "Ask the return fee directly and compare the answer with the page's $3.99.",
+  "Retest signed out with a new policy question; count the login prompts."
+ ]
+}
